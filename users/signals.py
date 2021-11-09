@@ -19,7 +19,7 @@ def createProfile(sender, instance, created, **kwargs):
         )
         
         subject = 'Welcome to Hunt For Developer'
-        message = 'Thank you for creating an with huntfordev.herokuapp.com. We hope you\'ll like our services.'
+        message = 'Thank you for creating an with huntdev.herokuapp.com. We hope you\'ll like our services.'
         
         send_mail(
             subject,
