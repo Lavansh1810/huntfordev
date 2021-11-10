@@ -72,7 +72,7 @@ def profiles(request):
     profiles, search_query = searchProfiles(request)
     # profiles=Profile.objects.all()    
     
-    results = 3
+    results = 6
     custom_range, profiles = paginateProfiles(request, profiles, results)
     
     context = {

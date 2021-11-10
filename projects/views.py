@@ -13,7 +13,7 @@ def projects(request):
     projects, search_query = searchProject(request)
     
     
-    results = 3
+    results = 6
     custom_range, projects = paginateProjects(request, projects, results)
     
     context = {'projects': projects, 'search_query' : search_query, 'custom_range' : custom_range}
