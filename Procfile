@@ -1,1 +1,1 @@
-web: gunicorn devsearch.wsgi --log-file -
+web: waitress-serve --port=$POST devsearch.wsgi:application
