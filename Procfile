@@ -1,1 +1,1 @@
-web:waitress-serve --port=$POST devsearch.wsgi:application
+web: waitress-serve --port=$POST devsearch.wsgi:application
